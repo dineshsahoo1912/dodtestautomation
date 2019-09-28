@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.consumercredits.dod.TestNG_DoDTestSuite" duration-ms="102584" started-at="2019-09-16T11:35:43Z" finished-at="2019-09-16T11:37:25Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="102584" started-at="2019-09-16T11:35:43Z" finished-at="2019-09-16T11:37:25Z">
+      <class name="com.consumercredits.dod.TestNG_DoDTestSuite">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="beforeTest" is-config="true" duration-ms="36965" started-at="2019-09-16T11:35:43Z" finished-at="2019-09-16T11:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="beforeMethod" is-config="true" duration-ms="2286" started-at="2019-09-16T11:36:20Z" finished-at="2019-09-16T11:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="languageChangeCheck()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="languageChangeCheck" duration-ms="426" started-at="2019-09-16T11:36:22Z" finished-at="2019-09-16T11:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageChangeCheck -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="tearDown" is-config="true" duration-ms="1068" started-at="2019-09-16T11:36:22Z" finished-at="2019-09-16T11:36:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=languageChangeCheck status=SUCCESS method=TestNG_DoDTestSuite.languageChangeCheck()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="beforeMethod" is-config="true" duration-ms="52" started-at="2019-09-16T11:36:23Z" finished-at="2019-09-16T11:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="boReachCheck()[pri:1, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="boReachCheck" duration-ms="5219" started-at="2019-09-16T11:36:23Z" finished-at="2019-09-16T11:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boReachCheck -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="tearDown" is-config="true" duration-ms="1048" started-at="2019-09-16T11:36:29Z" finished-at="2019-09-16T11:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=boReachCheck status=SUCCESS method=TestNG_DoDTestSuite.boReachCheck()[pri:1, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="beforeMethod" is-config="true" duration-ms="52" started-at="2019-09-16T11:36:30Z" finished-at="2019-09-16T11:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="successSearch()[pri:2, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="successSearch" duration-ms="935" started-at="2019-09-16T11:36:30Z" finished-at="2019-09-16T11:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successSearch -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="tearDown" is-config="true" duration-ms="1057" started-at="2019-09-16T11:36:31Z" finished-at="2019-09-16T11:36:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successSearch status=SUCCESS method=TestNG_DoDTestSuite.successSearch()[pri:2, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="beforeMethod" is-config="true" duration-ms="50" started-at="2019-09-16T11:36:32Z" finished-at="2019-09-16T11:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="accountGroupVerification" duration-ms="4032" started-at="2019-09-16T11:36:32Z" data-provider="TestData" finished-at="2019-09-16T11:36:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101192592]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CSPL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountGroupVerification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="tearDown" is-config="true" duration-ms="1062" started-at="2019-09-16T11:36:36Z" finished-at="2019-09-16T11:36:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accountGroupVerification status=SUCCESS method=TestNG_DoDTestSuite.accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="beforeMethod" is-config="true" duration-ms="44" started-at="2019-09-16T11:36:37Z" finished-at="2019-09-16T11:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="accountGroupVerification" duration-ms="4172" started-at="2019-09-16T11:36:37Z" data-provider="TestData" finished-at="2019-09-16T11:36:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[107362252]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CRPL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountGroupVerification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="tearDown" is-config="true" duration-ms="1047" started-at="2019-09-16T11:36:41Z" finished-at="2019-09-16T11:36:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accountGroupVerification status=SUCCESS method=TestNG_DoDTestSuite.accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="beforeMethod" is-config="true" duration-ms="43" started-at="2019-09-16T11:36:42Z" finished-at="2019-09-16T11:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="accountGroupVerification" duration-ms="11476" started-at="2019-09-16T11:36:42Z" data-provider="TestData" finished-at="2019-09-16T11:36:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[490969917]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CCPL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountGroupVerification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="tearDown" is-config="true" duration-ms="1051" started-at="2019-09-16T11:36:54Z" finished-at="2019-09-16T11:36:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accountGroupVerification status=SUCCESS method=TestNG_DoDTestSuite.accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="beforeMethod" is-config="true" duration-ms="45" started-at="2019-09-16T11:36:55Z" finished-at="2019-09-16T11:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="accountGroupVerification" duration-ms="4058" started-at="2019-09-16T11:36:55Z" data-provider="TestData" finished-at="2019-09-16T11:36:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[213319101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CRCPL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountGroupVerification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="tearDown" is-config="true" duration-ms="1048" started-at="2019-09-16T11:36:59Z" finished-at="2019-09-16T11:37:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accountGroupVerification status=SUCCESS method=TestNG_DoDTestSuite.accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="beforeMethod" is-config="true" duration-ms="41" started-at="2019-09-16T11:37:00Z" finished-at="2019-09-16T11:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="accountGroupVerification" duration-ms="6915" started-at="2019-09-16T11:37:00Z" data-provider="TestData" finished-at="2019-09-16T11:37:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[213116782]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CRCNPL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountGroupVerification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="tearDown" is-config="true" duration-ms="1048" started-at="2019-09-16T11:37:07Z" finished-at="2019-09-16T11:37:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accountGroupVerification status=SUCCESS method=TestNG_DoDTestSuite.accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="beforeMethod" is-config="true" duration-ms="38" started-at="2019-09-16T11:37:08Z" finished-at="2019-09-16T11:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="accountGroupVerification" duration-ms="6575" started-at="2019-09-16T11:37:08Z" data-provider="TestData" finished-at="2019-09-16T11:37:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[213101882]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CCNPL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountGroupVerification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="tearDown" is-config="true" duration-ms="1056" started-at="2019-09-16T11:37:14Z" finished-at="2019-09-16T11:37:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accountGroupVerification status=SUCCESS method=TestNG_DoDTestSuite.accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="beforeMethod" is-config="true" duration-ms="42" started-at="2019-09-16T11:37:16Z" finished-at="2019-09-16T11:37:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="accountGroupVerification" duration-ms="6898" started-at="2019-09-16T11:37:16Z" data-provider="TestData" finished-at="2019-09-16T11:37:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345888]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ALFAM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountGroupVerification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="tearDown" is-config="true" duration-ms="1052" started-at="2019-09-16T11:37:22Z" finished-at="2019-09-16T11:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accountGroupVerification status=SUCCESS method=TestNG_DoDTestSuite.accountGroupVerification(java.lang.String, java.lang.String)[pri:3, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.consumercredits.dod.TestNG_DoDTestSuite@26ba2a48]" name="afterTest" is-config="true" duration-ms="1654" started-at="2019-09-16T11:37:24Z" finished-at="2019-09-16T11:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.consumercredits.dod.TestNG_DoDTestSuite -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.consumercredits.dod.TestNG_DoDTestSuite -->
+</testng-results>
