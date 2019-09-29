@@ -15,13 +15,11 @@ import org.testng.annotations.Test;
 
 public class csplAccountTest extends commonSteps {
 
-    String accountNumber = testData.testAccountNumbers("CSPL");
+    private String accountNumber = testData.testAccountNumbers("CSPL");
 
     @Test
     public void searchAccountNumber() {
         test = extent.createTest("Verify that CSPL accounts are found in the CRIS database");
-        AccountSearchPage.language_button_en(driver).click();
-        wait.until(ExpectedConditions.textToBePresentInElement(AccountSearchPage.text_name(driver), "Name"));
         AccountSearchPage.account_id_search(driver).sendKeys(accountNumber);
         AccountSearchPage.account_id_search(driver).sendKeys(Keys.ENTER);
         wait.until(ExpectedConditions.or(
@@ -55,15 +53,23 @@ public class csplAccountTest extends commonSteps {
     }
 
     @Test(priority = 3)
-    public void saveTriggerFunctionality() throws Exception{
+    public void saveTriggerFunctionality() {
         test = extent.createTest("Verify that trigger saving functionality works as expected from the User Interface");
         TriggerViewSearchPage.trigger_search(driver,"Legal problems").click();
-
-        WebElement element = driver.findElement(By.xpath(".//*[contains(text(),'Legal problems')]"));
-        element.click();
-
         TriggerViewSearchPage.save_button(driver).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//span[contains(text(),'Saved')]")));
+        Assert.assertEquals("Saved Successfully.", TriggerViewSearchPage.saved_successfully(driver).getText());
     }
 
-
+//    @Test(priority = 4)
+//    public void retrieveTriggerFunctionality() {
+//        test = extent.createTest("Verify that trigger saved earlier is retrieved properly");
+//        AccountSearchPage.account_id_search(driver).clear();
+//        AccountSearchPage.account_id_search(driver).sendKeys(testData.testAccountNumbers("CSPL"));
+//        wait.until(ExpectedConditions.or(
+//                ExpectedConditions.visibilityOfElementLocated(By.xpath(".//span[@class = 'ng-binding ng-scope' and contains(text(),'Legal problems')]")),
+//                ExpectedConditions.visibilityOfElementLocated(By.xpath(".//span[@class = 'ng-binding ng-scope' and contains(text(),'Veroordeling+')]"))
+//        ));
+//
+//    }
 }

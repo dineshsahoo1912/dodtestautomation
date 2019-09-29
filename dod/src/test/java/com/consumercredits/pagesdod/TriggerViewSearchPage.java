@@ -24,4 +24,9 @@ public class TriggerViewSearchPage {
         element = driver.findElement(By.xpath(related_acc_xpath));
         return element;
     }
+
+    public static WebElement saved_successfully(WebDriver driver) {
+        element = driver.findElement(By.xpath(".//span[contains(text(),'Saved')]"));
+        return element;
+    }
 }

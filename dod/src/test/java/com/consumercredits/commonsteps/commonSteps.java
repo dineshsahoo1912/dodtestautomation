@@ -6,6 +6,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.consumercredits.dod.SearchPageLangBOReachTest;
+import com.consumercredits.pagesdod.AccountSearchPage;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -103,7 +104,8 @@ public class commonSteps {
     public void beforeMethod() {
         driver.get(baseUrl);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("accountNumber")));
-
+        AccountSearchPage.language_button_en(driver).click();
+        wait.until(ExpectedConditions.textToBePresentInElement(AccountSearchPage.text_name(driver), "Name"));
     }
 
     @AfterMethod
